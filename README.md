@@ -1,5 +1,7 @@
 # meetup-api-python-groups
 Get the python meetup groups in LATAM and identify the quantity of group members
+
+
 The result of the execution is saved in
 - ./result/colombia.txt 
 - ./result/latam.txt 
