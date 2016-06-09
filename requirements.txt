@@ -1,0 +1,8 @@
+linecache2==1.0.0
+meetup-api==0.1.1
+py==1.4.31
+pytest==2.9.2
+requests==2.10.0
+six==1.10.0
+traceback2==1.4.0
+unittest2==1.1.0

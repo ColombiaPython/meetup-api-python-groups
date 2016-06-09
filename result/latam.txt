@@ -1,24 +1,3 @@
-# meetup-api-python-groups
-Get the python meetup groups in LATAM and identify the quantity of group members
-The result of the execution is saved in
-- ./result/colombia.txt 
-- ./result/latam.txt 
-
-There is an example of the file output:
-
-# colombia.txt
- =================== Colombia Python groups ================= 
-Colombia   Bogotá               1098  Django Bogotá 
-Colombia   Medellín             844   Medellín Python y Django Meetup 
-Colombia   Bogotá               689   Bogotá Python Meetup Group 
-Colombia   Bogotá               314   PyData Bogotá 
-Colombia   Barranquilla         214   Django Barranquilla 
-Colombia   Medellín             141   PyLadies Medellín 
-Colombia   Pasto                94    Pasto Python 
-Colombia   Santa Marta          94    Django Santa Marta 
-Colombia   Bogotá               75    [ SDx | Networking | Security | Cloud | Python ] => Colombia 
-
-# latam.txt
  =================== LATAM Python groups ================= 
 Brazil     São Paulo            1953  Grupy-SP   
 Colombia   Bogotá               1098  Django Bogotá 
@@ -51,10 +30,3 @@ Paraguay   Asunción             77    Python Paraguay
 Colombia   Bogotá               75    [ SDx | Networking | Security | Cloud | Python ] => Colombia 
 Mexico     México City          50    Python México 
 Mexico     Puebla               42    Meetup de Python en Puebla 
-
-
-# running the app
-python run.py
-
-# Testing the app
-python -m unittest
