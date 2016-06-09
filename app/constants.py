@@ -72,6 +72,7 @@ LATAM_PLACES_FILTERS = [
 # add colombia filters to latam filters
 LATAM_PLACES_FILTERS.extend(COLOMBIA_PLACES_FILTERS)
 
+# Keyword filers that contain the criteria a group would be considered in the statistics
 KEYWORD_FILTERS = [
     # general keywords
     "Django", "Python", "PyData", "PyLadies", "Py",

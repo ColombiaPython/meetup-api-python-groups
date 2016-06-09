@@ -7,6 +7,12 @@ class MeetupUtils:
         self.__client__ = meetup.api.Client(api_key)
 
     def get_find_groups(self, places_filters, keyword_filters):
+        """
+        Get groups from the meetup api based on the given filters and filter them by keywords
+        :param places_filters: List, dicts of country codes and cities to be filtered
+        :param keyword_filters: List, words of approved groups
+        :return List: Groups that were found in the meetup api
+        """
         found_places = []
         for place in places_filters:
             find_group_filter = {'country': place['country'], 'location': place['location'], 'text': 'python',
