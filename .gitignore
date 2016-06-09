@@ -157,3 +157,8 @@ crashlytics-build.properties
 fabric.properties
 
 # Created by .ignore support plugin (hsz.mobi)
+
+# Created result
+result/colombia.txt
+result/latam.txt
+
