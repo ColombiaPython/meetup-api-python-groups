@@ -35,7 +35,7 @@ class TestPythonGroups(unittest.TestCase):
         # test retrieved group from latam
         latam_groups = get_location_based_python_groups("LATAM")
         for latam_group in latam_groups:
-            self.assertFalse(latam_group['country_code'] in self.__latam_country_codes__)
+            self.assertTrue(latam_group['country_code'] in self.__latam_country_codes__)
 
 if __name__ == '__main__':
     unittest.main()
