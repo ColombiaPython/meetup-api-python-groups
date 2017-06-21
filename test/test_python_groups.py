@@ -28,7 +28,7 @@ class TestPythonGroups(unittest.TestCase):
         # test retrieved group from colombia
         colombian_groups = get_location_based_python_groups("CO")
         for colombian_group in colombian_groups:
-            self.assertEqual(colombian_group['country_code'], self.__colombia_code__)
+            self.assertEqual(colombian_group['country_code'], self.__colombia_code__
 
     def test_get_latam_based_python_groups(self):
 
